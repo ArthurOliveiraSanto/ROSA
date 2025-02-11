@@ -1,0 +1,90 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #ff5cd6;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .input-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .large-input {
+            padding: 20px;
+            font-size: 18px;
+            border: 3px solid #ff009d;
+            border-radius: 60px;
+            width: 1000px;
+            box-sizing: border-box;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        .large-input:focus {
+            outline: none;
+            border-color: #a80068;
+            box-shadow: 0 0 10px rgba(0, 102, 204, 0.3);
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .image-text-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(255, 131, 214);
+            padding: 10px;
+            border-radius: 35px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 950px;
+            width: 100%;
+        }
+
+        .image-text-wrapper img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .image-text-wrapper p {
+            font-size: 20px;
+            color: #333;
+            max-width: 700px;
+            text-align: justify;
+        }
+
+        .input-image-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 35px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 950px;
+            width: 100%;
+        }
+
+        .input-image-wrapper input {
+            padding: 20px;
+            font-size: 18px;
+            border: 3px solid #ff009d;
+            border-radius: 60px;
+            width: 70%;
+            box-sizing: border-box;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        .input-image-wrapper img {
+            width: 100px;
+            height: auto;
+            border-radius: 10px;
+            margin-left: 20px;
+        }
